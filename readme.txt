@@ -7,17 +7,15 @@ Tested up to: 4.2.1
 Stable tag: trunk
 License: GPLv2
 
-*Scans automatically, twice a day, all your installed plugins against the WordPress Plugin Directory for outdated plugins and email alert for update.*
+Scans automatically, twice a day, all your installed plugins against the WordPress Plugin Directory for outdated plugins and email alert for update.
 
 == Description ==
 Scans automatically, twice a day, all of your installed plugins against the WordPress Plugin Directory for outdated plugins and email an alert for update.
 
 **What k-OutDated Checker (k-OC) Does**
-
 k-OC stands for k-OutDated Checker. k-OC scans automatically, twice a day, all your installed plugins against the WordPress Plugin Directory for outdated plugins and email an alert for immediate update.
 
 **History**
-
 k-OC got its start when I had to maintain a lot of WordPress installations which their owners didn't care much about maintenance and security.
 
 
@@ -43,4 +41,5 @@ Initial release of k-OC
 There are no FAQ.
 
 == Screenshots ==
-There are no screenshots.
+
+1. This is how the email alert will look like if all plugins are up-to-date.
