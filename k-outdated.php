@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: k-OutDated Plugin Checker (k-OPC)
+Plugin Name: k-OutDated Checker (k-OC)
 Plugin URI: https://kanenas.net/
-Description: k-OutDated Plugin Checker (k-OPC) will scan automatically, twice a day, all of your installed plugins against the WordPress Plugin Repository for outdated plugins and email an alert for immediate update.
+Description: k-OutDated Checker (k-OC) will scan automatically, twice a day, all of your installed plugins against the WordPress Plugin Repository for outdated plugins and email an alert for immediate update.
 Version: 1.0
 Author: kanenas (aka Nikolas Branis)
 Author URI: https://kanenas.net/
 License: GPLv2
-Text Domain: k-opc
+Text Domain: k-oc
 */
 
 /*
@@ -93,8 +93,8 @@ function k_outdated_check_plugin_version( $plugin_slug ) {
 function k_outdated_send_email_alert( $alert_content ) {
 	// TO-DO: Add a field (email) where alerts will be send to more than one email accounts, comma separated.
 	$mail_to = get_option( 'admin_email' );
-	$mail_subject = "[k-OPC Alert] Some plugins need your attention";
-	$mail_content = '<p>This email was sent from your website <strong><a href="' . esc_attr(get_bloginfo('url')) . '" target="_blank">' . get_bloginfo('name') . '</a></strong> by the <strong><a href="https://kanenas.net" target="_blank" title="k-OutDated (k-OPC)">k-OutDated (k-OPC)</a></strong> plugin at ' . date('Y-m-d H:i:s') . '.</p>
+	$mail_subject = "[k-OC Alert] Some plugins need your attention";
+	$mail_content = '<p>This email was sent from your website <strong><a href="' . esc_attr(get_bloginfo('url')) . '" target="_blank">' . get_bloginfo('name') . '</a></strong> by the <strong><a href="https://kanenas.net" target="_blank" title="k-OutDated Checker (k-OC)">k-OutDated Checker (k-OC)</a></strong> plugin at ' . date('Y-m-d H:i:s') . '.</p>
 							<p>There is at least one plugin that is <strong>outdated</strong>, please update!</p>
 							<p>These are the plugins that need your attention:</p>' . $alert_content . '
 							<p>Please <strong><a href="' . esc_attr(admin_url('update-core.php')) .'" target="_blank">UPDATE NOW</a></strong>.</p>';
