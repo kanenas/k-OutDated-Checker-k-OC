@@ -47,7 +47,7 @@ After downloading and extracting the latest version of k-OC:
 
 == Frequently Asked Questions ==
 
-=I have activated the plugin. Now what?=
+= I have activated the plugin. Now what? =
 
 * You don't have to do anything else! k-OutDated Checker will scan all your plugins against the WordPress Plugin Directory (twice a day) and alert the administrator of your website (by email) if at least one plugin is outdated.
 
