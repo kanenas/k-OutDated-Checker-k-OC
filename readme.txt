@@ -44,4 +44,4 @@ There are no FAQ.
 
 == Screenshots ==
 
-1. This is how the email alert will look like if all plugins are up-to-date.
+1. This is how the email alert will look like if plugins are not up-to-date.
