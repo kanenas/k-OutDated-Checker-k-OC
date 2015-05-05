@@ -31,7 +31,7 @@ After downloading and extracting the latest version of k-OC:
 
 == Changelog ==
 
-**Version 1.0 (First Release)**
+= 1.0 (First Release) 04/05/2015 =
 
 * This is the initial release of k-OC.
 
