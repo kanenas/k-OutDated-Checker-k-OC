@@ -2,12 +2,12 @@
 /*
 Plugin Name: k-OutDated Checker (k-OC)
 Plugin URI: https://kanenas.net/
-Description: k-OutDated Checker (k-OC) will scan automatically, twice a day, all of your installed plugins against the WordPress Plugin Repository for outdated plugins and email an alert for immediate update.
-Version: 1.0
+Description: k-OutDated Checker (k-OC) will scan automatically, twice a day, all of your installed plugins against the WordPress Plugin Directory for outdated plugins and email an alert for immediate update.
+Version: 1.1
 Author: kanenas (aka Nikolas Branis)
 Author URI: https://kanenas.net/
 License: GPLv2
-Text Domain: k-oc
+Text Domain: k-outdated-checker
 */
 
 /*
@@ -62,24 +62,33 @@ function k_outdated() {
 
 		$json = k_outdated_check_plugin_version( $plugin_slug[0] );
 
-		foreach ( $plugins_value as $plugin => $value ) {
-			if ( $plugin == 'Name' ) {
-				$plugin_name_html = '<strong>' . $value . ':</strong> ';
-				$alert_content .= $plugin_name_html;
-			}
-			if ( $plugin == 'Version' ) {
-				if ( $value != $json['version'] ) {
-					$plugin_version_html = $value . ' <span style="color: red; font-weight: bolder;">***There is a new version of the plugin, please update!***</span><br />';
-					$alert_content .= $plugin_version_html;
-				} else {
-					$plugin_version_html = $value . ' <span style="color: green; font-weight: bolder;">(OK)</span><br />';
-					$alert_content .= $plugin_version_html;
+		// Check only for plugins that exist in WordPress Plugin Directory
+		if ( !empty( $json ) ) {
+			foreach ( $plugins_value as $plugin => $value ) {
+				if ( $plugin == 'Name' ) {
+					$plugin_name_html = '<strong>' . $value . ':</strong> ';
+					$alert_content .= $plugin_name_html;
+				}
+				if ( $plugin == 'Version' ) {
+					if ( $value != $json['version'] ) {
+						
+						// At least one plugin is outdated
+						$found_outdated = true;
+
+						$plugin_version_html = $value . ' <span style="color: red; font-weight: bolder;">***There is a new version of the plugin, please update!***</span><br />';
+						$alert_content .= $plugin_version_html;
+					} else {
+						$plugin_version_html = $value . ' <span style="color: green; font-weight: bolder;">(OK)</span><br />';
+						$alert_content .= $plugin_version_html;
+					}
 				}
 			}
 		}
 	}
 	// Send email alert if there is at least one outdated plugin.
-	k_outdated_send_email_alert( $alert_content );
+	if ( $found_outdated == true ) {
+		k_outdated_send_email_alert( $alert_content );		
+	}
 }
 
 function k_outdated_check_plugin_version( $plugin_slug ) {

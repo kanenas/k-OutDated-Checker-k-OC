@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: plugin updates, security
 Requires at least: 3.0
 Tested up to: 4.2.1
-Stable tag: trunk
+Stable tag: 1.1
 License: GPLv2
 
 Scans automatically, twice a day, all your installed plugins against the WordPress Plugin Directory for outdated plugins and email alert for update.
@@ -31,17 +31,26 @@ After downloading and extracting the latest version of k-OC:
 
 == Changelog ==
 
-**Version 1.0 (First Release)**
+= 1.1 05/05/2015 =
+
+* Fix - Check only for plugins that exist in WordPress Plugin Directory.
+* Fix - Send email alert only when at least one plugin is outdated.
+
+= 1.0 (First Release) 04/05/2015 =
 
 * This is the initial release of k-OC.
 
 == Upgrade Notice ==
-= 1.0 =
-Initial release of k-OC
+= 1.1 =
+* Fix - Check only for plugins that exist in WordPress Plugin Directory.
+* Fix - Send email alerts only when a plugin is outdated.
 
 == Frequently Asked Questions ==
-There are no FAQ.
+
+=I have activated the plugin. Now what?=
+
+* You don't have to do anything else! k-OutDated Checker will scan all your plugins against the WordPress Plugin Directory (twice a day) and alert the administrator of your website (by email) if at least one plugin is outdated.
 
 == Screenshots ==
 
-1. This is how the email alert will look like if all plugins are up-to-date.
+1. This is how the email alert will look like if plugins are not up-to-date.
