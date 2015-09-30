@@ -1,0 +1,89 @@
+# Copyright (C) 2015 k-OutDated Checker (k-OC)
+# This file is distributed under the same license as the k-OutDated Checker (k-OC) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: k-OutDated Checker (k-OC) 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/k-outdated-plugin-"
+"checker-k-opc\n"
+"POT-Creation-Date: 2015-09-17 13:38:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-09-17 17:17+0200\n"
+"Last-Translator: kanenas.net (aka Nikolas Branis) <nbran@kanenas.net>\n"
+"Language-Team: kanenas <nbran@kanenas.net>\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: Greek\n"
+
+#: k-outdated.php:68
+msgid "***There is a new version of the plugin, please update!***"
+msgstr ""
+"***Υπάρχει μια καινούργια έκδοση του πρόσθετου, παρακαλώ αναβαθμίστε!***"
+
+#: k-outdated.php:69
+msgid "(OK)"
+msgstr "(OK)"
+
+#: k-outdated.php:122
+msgid "[k-OC Alert] Some plugins need your attention"
+msgstr "[k-OC Alert] Κάποια από τα πρόσθετα χρειάζονται την προσοχή σας"
+
+#: k-outdated.php:124
+msgid ""
+"<p>This email was sent from your website <strong><a href=\"%1$s\" target="
+"\"_blank\" title=\"%2$s\">%3$s</a></strong> by the <strong><a href=\"%4$s\" "
+"target=\"_blank\" title=\"k-OutDated Checker (k-OC)\">k-OutDated Checker (k-"
+"OC)</a></strong> plugin at %5$s.</p>"
+msgstr ""
+"<p>Αυτό το email στάλθηκε από το δικτυακό σας τόπο <strong><a href=\"%1$s\" "
+"target=\"_blank\" title=\"%2$s\">%3$s</a></strong> από το πρόσθετο "
+"<strong><a href=\"%4$s\" target=\"_blank\" title=\"k-OutDated Checker (k-"
+"OC)\">k-OutDated Checker (k-OC)</a></strong> στις %5$s.</p>"
+
+#: k-outdated.php:134
+msgid ""
+"<p>There is at least one plugin that is <strong>outdated</strong>, please "
+"update!</p>"
+msgstr ""
+"<p>Υπάρχει τουλάχιστον ένα πρόσθετο που <strong>δεν είναι ενημερωμένο</"
+"strong>, παρακαλώ αναβαθμίστε!</p>"
+
+#: k-outdated.php:138
+msgid "<p>These are the plugins that need your attention:</p>"
+msgstr ""
+"<p>Δείτε στα παρακάτω πρόσθετα εκείνα που χρειάζονται την προσοχή σας:</p>"
+
+#: k-outdated.php:144
+msgid ""
+"<p>Please <strong><a href=\"%1$s\" target=\"_blank\">UPDATE NOW</a></strong>."
+"</p>"
+msgstr ""
+"<p>Παρακαλώ <strong><a href=\"%1$s\" target=\"_blank\">ΑΝΑΒΑΘΜΙΣΤΕ ΤΩΡΑ</a></"
+"strong>.</p>"
+
+#. Plugin Name of the plugin/theme
+msgid "k-OutDated Checker (k-OC)"
+msgstr "k-OutDated Checker (k-OC)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://kanenas.net/k-outdated-checker/"
+msgstr "https://kanenas.net/k-outdated-checker/"
+
+#. Description of the plugin/theme
+msgid ""
+"k-OutDated Checker (k-OC) will scan automatically, twice a day, all of your "
+"installed plugins against the WordPress Plugin Directory for outdated "
+"plugins and email an alert for immediate update."
+msgstr ""
+"Το πρόσθετο k-OutDated Checker (k-OC) θα ανιχνεύσει αυτόματα, δυο φορές την "
+"ημέρα, όλα τα εγκατεστημένα πρόσθετά σας σε σχέση με τον Κατάλογο Προσθέτων "
+"του WordPress για νέες ενημερώσεις και με το ηλεκτρονικό ταχυδρομείο θα σας "
+"στείλει ειδοποίηση για άμεση αναβάθμιση."
+
+#. Author of the plugin/theme
+msgid "kanenas (aka Nikolas Branis)"
+msgstr "kanenas (aka Nikolas Branis)"
+
+#. Author URI of the plugin/theme
+msgid "https://kanenas.net/"
+msgstr "https://kanenas.net/"
