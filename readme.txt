@@ -3,7 +3,7 @@ Contributors: kanenas
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MBEQXMDLHQJPC
 Tags: plugin updates, security
 Requires at least: 2.8
-Tested up to: 4.3.1
+Tested up to: 4.8.2
 Stable tag: 1.2.1
 License: GPLv2
 
