@@ -5,7 +5,7 @@ Tags: plugin updates, security
 Requires at least: 2.8
 Tested up to: 4.8.2
 Requires PHP: 5.2
-Stable tag: 1.2.1
+Stable tag: 1.2.1.1
 License: GPLv2
 
 Scans automatically, twice a day, all your installed plugins against the WordPress Plugin Directory for outdated plugins and email alert for update.
@@ -36,6 +36,11 @@ After downloading and extracting the latest version of k-OC:
 3. That's all!
 
 == Changelog ==
+
+= 1.2.1.1 08/10/2017 =
+
+* NEW: Added "Minimum PHP Version Requirement".
+* Update the "Tested up to".
 
 = 1.2.1 17/09/2015 =
 
