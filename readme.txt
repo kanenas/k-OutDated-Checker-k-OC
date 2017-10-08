@@ -62,9 +62,9 @@ After downloading and extracting the latest version of k-OC:
 * This is the initial release of k-OC.
 
 == Upgrade Notice ==
-= 1.2.1 17/09/2015 =
-* NEW: Added the k-outdated-plugin-checker-k-opc.pot file in languages folder.
-* NEW: Added translation for Greek.
+= 1.2.1.1 08/10/2017 =
+* NEW: Added "Minimum PHP Version Requirement".
+* Update the "Tested up to".
 
 == Frequently Asked Questions ==
 
