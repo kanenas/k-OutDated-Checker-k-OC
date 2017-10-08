@@ -3,7 +3,7 @@
 Plugin Name: k-OutDated Checker (k-OC)
 Plugin URI: https://kanenas.net/k-outdated-checker/
 Description: k-OutDated Checker (k-OC) will scan automatically, twice a day, all of your installed plugins against the WordPress Plugin Directory for outdated plugins and email an alert for immediate update.
-Version: 1.2.1
+Version: 1.2.1.1
 Author: kanenas (aka Nikolas Branis)
 Author URI: https://kanenas.net/
 License: GPLv2
